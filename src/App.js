@@ -1,26 +1,17 @@
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './container/Login'
-import Dashboard from './container/Dashboard'
-import ErrorPage from './container/ErrorPage'
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./Containers/Dashboard/Dashboard";
+import Login from "./Containers/Login/Login";
 
-
-function App() {
+const App = () => {
   return (
-    <>
-        <Router>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="*" element={<ErrorPage />} />
-          </Routes>
-        </Router>
-      <ToastContainer />
-    </>
-
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

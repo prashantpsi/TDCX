@@ -1,0 +1,33 @@
+.site-card-wrapper {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.site-card-wrapper .ant-col {
+  padding: 10px;
+}
+.site-card-wrapper .ant-card {
+    height:140px
+}
+.site-card-wrapper .ant-card-head {
+  border: none;
+}
+.site-card-wrapper .ant-card-head-title {
+    font-size: 20px;
+    color: #5a686d;
+}
+.site-card-wrapper .ant-card-body {
+    padding: 0px 24px;
+    height: inherit;
+}
+.site-card-wrapper .ant-card-body ul{
+    margin: 0;
+    padding: 0px 15px;
+    color: #b6b6ae;
+}
+.ant-typography {
+    color: #b6b6ae;
+}

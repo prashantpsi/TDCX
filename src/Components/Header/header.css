@@ -1,0 +1,31 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 5px 8px 10px 0px rgba(208, 216, 243, 0.6);
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: none !important;
+    width: 100%;
+    padding-inline: 0px !important;
+}
+.nav-button{
+    font-size: 18px;
+    font-weight: 600;
+    color:#5a686d;
+    padding-top: 0px;
+}
+.nav-item {
+    width: 124px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h4 {
+    margin: auto 1.5rem;
+    color:#5a686d;
+}
