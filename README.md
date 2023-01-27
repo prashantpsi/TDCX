@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-TDCX Assignment [Demo](https://63b5da6d7f12cf000970fcba--resonant-pudding-fb4439.netlify.app/)
+TDCX Assignment [Demo](https://63d3ef6c7a7e3f056faa49af--inspiring-dolphin-ac7113.netlify.app/)
 
 ## Available Scripts
 
